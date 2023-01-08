@@ -1,6 +1,6 @@
 ## Tikmeh
 
-#### 0.2.2 (Dec 3, 2022)
+#### 0.2.3 (Jan 8, 2023)
 
 Single executable to **download videos, profiles, sync your collection** with authors in one command with the best
 quality available.
@@ -9,9 +9,9 @@ No installation required, you don't have to use Terminal.
 I was asked to add conversion to `h.264`, so now Tikmeh could access user-provided `ffmpeg`, by default the system's
 one.
 
-- [tikmeh.exe](https://github.com/mehanon/tikmeh/raw/main/build/tikmeh.exe) – download Windows (amd64) executable (
+- [tikmeh.exe](https://github.com/mehanon/tikmeh/releases/download/v0.2.3/tikmeh.exe) – download Windows (amd64) executable (
   compatible even with Win7)
-- [tikmeh](https://github.com/mehanon/tikmeh/raw/main/build/tikmeh) – download Linux (amd64) executable
+- [tikmeh](https://github.com/mehanon/tikmeh/releases/download/v0.2.3/tikmeh) – download Linux (amd64) executable
 
 ### Examples:
 
