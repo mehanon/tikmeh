@@ -50,6 +50,12 @@ done.
 >>> exit
 ```
 
+### Installing on Linux in one command
+
+```shell
+wget -q https://github.com/mehanon/tikmeh/releases/download/v0.2.3/tikmeh && chmod +x tikmeh && sudo mv tikmeh /usr/bin/ && tikmeh help
+```
+
 ### Building from sources
 
 Note: requires Golang 1.19+
