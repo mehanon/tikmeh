@@ -4,6 +4,8 @@ github.com/cpuguy83/go-md2man/v2 v2.0.2 h1:p1EgwI/C7NhT0JmVkwCD2ZBK8j4aeHQX2pMHH
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/mehanon/tikmeh/tikwm v0.0.0-20221105043753-e7e10f84ee5c h1:eDybNVeS6Qr4xhPz+Zo8eoEjdyXSlNpRF3xtcAXaoiI=
 github.com/mehanon/tikmeh/tikwm v0.0.0-20221105043753-e7e10f84ee5c/go.mod h1:/az1PbiuFcLt5cah1/XwurgdHkZQOmCMDK1XqdZbWNM=
+github.com/mehanon/tikmeh/tikwm v0.0.0-20230109091639-cc1dacca6f95 h1:E7ePfxsijLwxUUGRsySWRxSt5OsKcPwuciAfO9W62rw=
+github.com/mehanon/tikmeh/tikwm v0.0.0-20230109091639-cc1dacca6f95/go.mod h1:/az1PbiuFcLt5cah1/XwurgdHkZQOmCMDK1XqdZbWNM=
 github.com/russross/blackfriday/v2 v2.1.0 h1:JIOH55/0cWyOuilr9/qlrm0BSXldqnqwMsf35Ld67mk=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/urfave/cli/v2 v2.23.2 h1:34bT/FlchakhE5j+PggFYUfiGZBnrNxJRRVB9AQODOo=
