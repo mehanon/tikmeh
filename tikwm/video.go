@@ -51,10 +51,10 @@ func GetTiktokInfo(link string) (*TiktokInfo, error) {
 	return &response.Data, nil
 }
 
-func DownloadTiktok(link string, destination ...string) (string, error) {
+func DownloadTiktokVerbose(link string, destination ...string) (*TiktokInfo, string, error) {
 	info, err := GetTiktokInfo(link)
 	if err != nil {
-		return "", err
+		return nil, "", err
 	}
 
 	var sourceURL string
@@ -64,7 +64,7 @@ func DownloadTiktok(link string, destination ...string) (string, error) {
 		log.Printf("tikwm couldn't find HD version for %s, downloading how it is...", link)
 		sourceURL = info.SourceURL
 	} else {
-		return "", errors.New(fmt.Sprintf("no download links found :c for %s", link))
+		return nil, "", errors.New(fmt.Sprintf("no download links found :c for %s", link))
 	}
 
 	filename := valueOrDefault(destination, GenerateFilename(info))
@@ -75,8 +75,13 @@ func DownloadTiktok(link string, destination ...string) (string, error) {
 	}
 	err = Wget(sourceURL, filename)
 	if err != nil {
-		return "", err
+		return nil, "", err
 	}
 
-	return filename, nil
+	return info, filename, nil
+}
+
+func DownloadTiktok(link string, destination ...string) (string, error) {
+	_, filename, err := DownloadTiktokVerbose(link, destination...)
+	return filename, err
 }
